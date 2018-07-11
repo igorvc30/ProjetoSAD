@@ -162,7 +162,7 @@
     "buttons": "Botões",
     "charts": "Gráficos",
     "dashboard": "Painel principal",
-    "extra": "Extra",
+    "extra": "Apresentação",
     "formElements": "Elementos de Formulários",
     "forms": "Formulários",
     "formWizards": "Formulários Wizards",
@@ -171,13 +171,13 @@
     "icons": "Icones",
     "spinners": "Spinners",
     "login": "Login",
-    "maps": "Mapas",
+    "maps": "Mapa de Calor",
     "modals": "Modals",
     "notifications": "Notificações",
     "progressBars": "Barra de progresso",
     "signUp": "Cadastrar-se",
     "statistics": "Estatística",
-    "tables": "Tabelas",
+    "tables": "Ranking",
     "typography": "Tipografia",
     "uiElements": "Elementos UI",
     "treeView": "Árvore de visualização",
@@ -203,7 +203,8 @@
     "title": "Modals"
   },
   "navbar": {
-    "messageUs": "Enviar uma pergunta ou feedback para"
+    "messageUs": "Não esqueça: A dengue se combate todo dia.",
+    "messageSmall": "Contra a denge, não deixe água parada."
   },
   "notifications": {
     "all": "Ver todas as notificações",
