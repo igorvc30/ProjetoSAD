@@ -2,59 +2,21 @@
   <vuestic-sidebar :hidden="isOpen">
     <template slot="menu">
       <sidebar-link
-        :to="{ name: 'dashboard' }">
-        <span slot="title">
-          <span class="sidebar-menu-item-icon vuestic-icon vuestic-icon-dashboard"></span>
-          <span>{{ $t('menu.dashboard') }}</span>
-        </span>
-      </sidebar-link>
-
-      <sidebar-link
         :to="{ name: 'extra' }">
         <span slot="title">
           <span class="sidebar-menu-item-icon vuestic-icon vuestic-icon-extras"></span>
           <span>{{ $t('menu.extra') }}</span>
         </span>
       </sidebar-link>
- 
-      <sidebar-link-group>
-        <span slot="title">
+
+       <sidebar-link
+          :to="{ name: 'google-maps' }">
+          <span slot="title">
           <span class="sidebar-menu-item-icon vuestic-icon vuestic-icon-maps"></span>
           <span>{{ $t('menu.maps') }}</span>
         </span>
-        <sidebar-link
-          :to="{ name: 'google-maps' }">
-          <span slot="title">
-            <span>{{ 'Google Maps' }}</span>
-          </span>
         </sidebar-link>
         <sidebar-link
-          :to="{ name: 'yandex-maps' }">
-          <span slot="title">
-            <span>{{ 'Yandex Maps' }}</span>
-          </span>
-        </sidebar-link>
-        <sidebar-link
-          :to="{ name: 'leaflet-maps' }">
-          <span slot="title">
-            <span>{{ 'Leaflet Maps' }}</span>
-          </span>
-        </sidebar-link>
-        <sidebar-link
-          :to="{ name: 'bubble-maps' }">
-          <span slot="title">
-            <span>{{ $t('Bubble Maps') }}</span>
-          </span>
-        </sidebar-link>
-        <sidebar-link
-          :to="{ name: 'line-maps' }">
-          <span slot="title">
-            <span>{{ $t('Line Maps') }}</span>
-          </span>
-        </sidebar-link>
-      </sidebar-link-group>
-
-             <sidebar-link
         :to="{ name: 'tables' }">
         <span slot="title">
           <span class="sidebar-menu-item-icon vuestic-icon vuestic-icon-tables"></span>
