@@ -2,7 +2,7 @@
 
   <vuestic-navbar>
     <header-selector slot="selector" :isOpen.sync="valueProxy"/>
-    <span slot="logo" class="logo"></span>
+    <span slot="logo" class="logo d-sm-none d-md-block"></span>
     <span slot="center">
       <div><h5>{{$t('navbar.messageUs')}}</h5><a href="#">{{$t('navbar.messageSmall')}}</a></div>
     </span>
@@ -11,7 +11,7 @@
     <language-dropdown/>
     <profile-dropdown>
       <!--img src="http://i.imgur.com/nfa5itq.png"/-->
-      <img src="https://img-21.ccm2.net/zhvgO9TDkUABJjd4phdgR17_RLI=/195x/b1fdc87a50b849c6b33f0d7a2a6fba54/ccm-faq/cDX0CZrmqDilIxFu-s-.png"/>
+      <img  src="https://img-21.ccm2.net/zhvgO9TDkUABJjd4phdgR17_RLI=/195x/b1fdc87a50b849c6b33f0d7a2a6fba54/ccm-faq/cDX0CZrmqDilIxFu-s-.png"/>
     </profile-dropdown>
   </vuestic-navbar>
 

@@ -118,9 +118,9 @@
     },
     "selects": {
       "country": "Selecionar Região",
-      "countryMulti": "Selecionar Multiplas Regiões",
+      "countryMulti": "Selecionar Estados",
       "multi": "Selecionar Múltiplos",
-      "simple": "Selecionador Simples",
+      "simple": "Escolher Ano",
       "title": "Selecionadores"
     },
     "wizard": {
@@ -223,14 +223,15 @@
     "title": "Barra de Progresso"
   },
   "tables": {
-    "basic": "Tabela Básico",
-    "styled": "Cores, Icones, Rótulos",
+    "basic": "Ranking das cidades com casos de dengue",
+    "styled": "Ranking de evolução das cidades",
     "advanced": "Pesquisar & Paginação",
     "headings": {
       "city": "Cidade",
       "email": "Email",
       "name": "Nome",
-      "score": "Contagem"
+      "score": "Casos",
+      "status": "Situação"
     }
   },
   "user": {

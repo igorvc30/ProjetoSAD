@@ -23,8 +23,12 @@
           <span>{{ $t('menu.tables') }}</span>
         </span>
       </sidebar-link>
+      <dengue-form/>
     </template>
+
   </vuestic-sidebar>
+
+
 </template>
 
 <script>
@@ -32,13 +36,16 @@
   import VuesticSidebar from '../../../vuestic-theme/vuestic-components/vuestic-sidebar/VuesticSidebar'
   import SidebarLink from './components/SidebarLink'
   import SidebarLinkGroup from './components/SidebarLinkGroup'
+  import dengueForm from '../DengueForm'
+
 
   export default {
     name: 'app-sidebar',
     components: {
       VuesticSidebar,
       SidebarLink,
-      SidebarLinkGroup
+      SidebarLinkGroup,
+      dengueForm
     },
     props: {
       isOpen: {
