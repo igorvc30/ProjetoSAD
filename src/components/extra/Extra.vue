@@ -14,8 +14,8 @@
     <div class="row">
       <div v-for="item in contatos" :key="item.id" class="col-md-3 d-flex">
         <vuestic-widget :headerText="$t('extra.profileCard')" class="profile-card-widget">
-          <vuestic-profile-card :name="item.nome" :location="item.curso" photoSource="item.foto"
-                                :social="{twitter: 'twitter.com', facebook: 'facebook.com',
+          <vuestic-profile-card :name="item.nome" :location="item.curso" :photoSource="item.photoURL"
+                                :social="{linkedin: 'twitter.com', facebook: 'facebook.com',
                                   instagram: 'instagram.com'}">
           </vuestic-profile-card>
         </vuestic-widget>
@@ -119,18 +119,35 @@
         contatos: [
           {
             id: 1,
-            nome: 'Igor V. Costa',
-            curso: 'Sistemas de Informacao',
+            nome: 'Airton Matheus Cardoso Leite',
+            curso: 'Ciência da Computação',
             linkedin: 'urlDOIDA',
             email: 'igor.vc30@gmail.com',
-            foto: 'https://media.licdn.com/dms/image/C4E03AQE7RL2CI02FBg/profile-displayphoto-shrink_200_200/0?e=1536796800&v=beta&t=5WgNUK0czItXCld3f_zH3DXw_ZNh_EgBla6Cw4q_5yo'
+            photoURL: 'https://pbs.twimg.com/profile_images/983788544551505921/9xTtNQds_400x400.jpg'
           },
           {
             id: 2,
-            nome: 'Igor V. Costa',
+            nome: 'Gilliard de Jesus Santos',
+            curso: 'Ciência da Computação',
+            linkedin: 'urlDOIDA',
+            email: 'igor.vc30@gmail.com',
+            photoURL: 'https://s2.glbimg.com/1g60nFn3dZCY3pt96AlQISrKUWc=/0x0:452x462/1600x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2018/07/02/mascote.png'
+          },
+          {
+            id: 3,
+            nome: 'Igor Vasconcelos Costa',
             curso: 'Sistemas de Informacao',
             linkedin: 'urlDOIDA',
-            email: 'igor.vc30@gmail.com'
+            email: 'igor.vc30@gmail.com',
+            photoURL: 'http://spb2018.com/media/20180630savoia.jpg'
+          },
+          {
+            id: 4,
+            nome: 'Lucas Renato Aragão Silva',
+            curso: 'Ciência da Computação',
+            linkedin: 'urlDOIDA',
+            email: 'igor.vc30@gmail.com',
+            photoURL: 'https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2018/06/16/2662968-cabelo-loiro-de-neymar-prestes-a-jogar-650x488-3.jpg'
           }
         ]
 

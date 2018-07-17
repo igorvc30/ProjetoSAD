@@ -78,10 +78,11 @@
       "title": "Guias",
       "maps": "Mapas",
       "overview": "Visão geral",
-      "setupProfile": "Perfil de instalação"
+      "setupProfile": "Funcionalidades",
+      "funcionalidades": "Funcionalidades"
     },
     "chat": "Gráficos",
-    "profileCard": "Cartão de perfil"
+    "profileCard": "Membros da equipe"
   },
   "forms": {
     "controls": {
