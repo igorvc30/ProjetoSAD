@@ -56,11 +56,11 @@
             slot: 'page1',
             onNext: () => {
               // this.validateFormField('name')
-              return true;
+              return true
             },
             isValid: () => {
               // return this.isFormFieldValid('name')
-              return true;
+              return true
             }
           },
           {
@@ -68,11 +68,11 @@
             slot: 'page2',
             onNext: () => {
               // this.$refs.selectedCountrySelect.validate()
-              return true;
+              return true
             },
             isValid: () => {
               // return this.$refs.selectedCountrySelect.isValid()
-              return true;
+              return true
             }
           },
           {
@@ -87,10 +87,10 @@
     },
     methods: {
       isFormFieldValid (field) {
-        return true;
+        return true
       },
       validateFormField (fieldName) {
-        return true;
+        return true
       }
     }
   }
